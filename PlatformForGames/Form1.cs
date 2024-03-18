@@ -22,5 +22,11 @@ namespace PlatformForGames
             GameTicTacToe game1 = new GameTicTacToe();
             game1.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Snake game2 = new Snake();
+            game2.Show();
+        }
     }
 }
